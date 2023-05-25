@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import styles from './counters.module.css'
+import { PROJECTS } from '../data/PROJECTS'
 
 function MyButton() {
   const [count, setCount] = useState(0)
@@ -22,3 +23,6 @@ function MyButton() {
 export default function MyApp() {
   return <MyButton />
 }
+
+
+PROJECTS

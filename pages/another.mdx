@@ -24,8 +24,16 @@ export const Counter = () => {
 
 <Counter/>
 
-## External Component
+## Projects
+import { PROJECTS } from '../data/PROJECTS'
+import Counters from '../components/counters';
 
-import Counters from '../components/counters'
+import Card from '../components/card';
 
+
+{PROJECTS.map((project)=>{
+  return (
+    <Card projectStars={project.projectStars} liveLink={project.liveLink} gitHubLink={project.liveLink} projectName={project.projectName} projectDescription={project.projectDescription} />
+  )
+})}
 <Counters />
