@@ -1,1 +1,12 @@
-// 
+import { CONTRIBUTIONS } from '../data/CONTRIBUTIONS'
+import Counters from '../components/counters';
+
+
+import Card from '../components/card';
+
+
+{CONTRIBUTIONS.map((project)=>{
+  return (
+    <Card liveLink={project.liveLink} gitHubLink={project.liveLink} projectName={project.projectName} projectDescription={project.projectDescription} />
+  )
+})}
