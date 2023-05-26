@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: '',
+  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
     text: 'Made by Aditya',
   },

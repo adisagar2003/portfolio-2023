@@ -1,6 +1,6 @@
 {
-  "index": "Home",
-  "projects": "Projects",
+  "index": "home",
+  "projects": "projects",
   "about": {
     "title": "About",
     "type": "page"
