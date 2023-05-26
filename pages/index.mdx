@@ -1,11 +1,22 @@
-# Introduction
- 
-A full-stack developer based in St. John's Newfoundland and Labrador
+# Hello! 👋👋👋
 
-## What is Nextra?
+I am a full-stack developer based in St. John's Newfoundland and Labrador currently learning react-native and Unity Game Engine. I have over 2 years of experience in full stack development, made over 700+ commits on [GitHub](https://github.com/adisagar2003) and contributed to over five well known institutions/companies. 
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+## Previous Experience
 
-## Documentation
+import Card from '../components/card';
+import { PROJECTS } from '../data/PROJECTS';
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+
+
+
+<div className={"projectsContainer"} >
+{PROJECTS.map((project)=>{
+  return (
+    <Card projectStars={project.projectStars} liveLink={project.liveLink} gitHubLink={project.liveLink} projectName={project.projectName} projectDescription={project.projectDescription} />
+  )
+})}
+</div>
+
+
+
